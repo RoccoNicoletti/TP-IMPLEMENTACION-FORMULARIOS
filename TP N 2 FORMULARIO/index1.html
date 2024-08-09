@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="funcionesLista.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Lista deseados</title>
+</head>
+<body>
+
+    <H1> Bienvenido, seleccione los productos que quiere agregar a su lista de deseos: </H1>
+    <ul>
+     <li>
+        Mouse ➪ <button onclick="listaDeseados(this, 'Mouse')"> Agregar a la lista de deseados.</button>
+        <span class="mensaje" id="mensajeMouse"> Agregado</span>
+        <span class="messageError" id="mensajeErrorMouse"> Ya agregado.</span> 
+    
+    </li>
+     <br>
+     <li>
+        Teclado ➪<button onclick="listaDeseados(this, 'Teclado')">Agregar a la lista de deseados. </button>
+        <span class="mensaje" id="mensajeTeclado"> Agregado</span> 
+        <span class="messageError" id="mensajeErrorTeclado"> Ya agregado.</span>
+    </li>
+     <br>
+     <li>
+        Monitor ➪ <button onclick="listaDeseados(this, 'Monitor')"> Agregar a la lista de deseados.</button>
+        <span class="mensaje" id="mensajeMonitor"> Agregado</span> 
+        <span class="messageError" id="mensajeErrorMonitor"> Ya agregado.</span>
+    </li>
+     <br>
+     <li> 
+        Gabinete ➪ <button onclick="listaDeseados(this, 'Gabinete')"> Agregar a la lista de deseados.</button>
+        <span class="mensaje" id="mensajeGabinete"> Agregado </span> 
+        <span class="messageError" id="mensajeErrorGabinete"> Ya agregado.</span>
+    
+    </li>
+    </ul>
+
+    <div class="carrito">
+    <img  src="3144456.png " width="50" >
+    <br>
+    <img src="flecha.png" width="30">
+    <ol id="listaDeseos"  ></ol>
+    
+        
+
+</div>
+
+    
+</body>
+</html>
